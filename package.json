@@ -6,10 +6,12 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.1.0",
-    "jade": "*",
-    "socket.io": "0.9.14",
-    "mysql": "2.0.0-rc2",
-    "jayson": "*"
+    "express": "^5.1.0",
+    "pug": "^3.0.3",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7",
+    "jayson": "*",
+    "cookie-parser": "^1.4.7",
+    "express-session": "^1.18.2"
   }
 }
